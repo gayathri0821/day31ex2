@@ -1,0 +1,26 @@
+package march31;
+
+public class Ex1b 
+{
+	private int customerid;
+	private String customername;
+	private static String customeraddress;
+	private long creditcardnumber;
+	private long mobilenumber;
+	private String productname;
+	private static double price;
+	private int quantity;
+	public Ex1b(int customerid, String customername, long creditcardnumber, long mobilenumber, String productname,
+			int quantity) {
+		super();
+		this.customerid = customerid;
+		this.customername = customername;
+		this.creditcardnumber = creditcardnumber;
+		this.mobilenumber = mobilenumber;
+		this.productname = productname;
+		this.quantity = quantity;
+	}
+	
+
+
+}
